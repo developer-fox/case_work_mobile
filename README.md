@@ -1,6 +1,7 @@
 ### Features
 - uygulamayı ilk yüklediğinizde sizi bir login ekranı karşılar. Uygulamanın genişleyebilir olması açısından bu şekilde bir hesaplandırma yoluna gittim.
-- uygulamayı yazarken environment değişkenleri kullandım. Bu sebeple eğer derlemeye kalkarsanız hata verecektir. Uygulamayı test etmek için lib/outputs içerisindeki apk dosyasını kullanınız.
+- bir oturumun süresi 1 gündür. 24 saatlik süre dolduğu zaman tekrardan login olmanız gerekir. Bu süre web servis tarafında ayarlanmıştır.
+- uygulamayı yazarken environment değişkenleri kullandım. Bu sebeple eğer derlemeye kalkarsanız hata verecektir. Uygulamayı test etmek için ./outputs içerisindeki apk dosyasını kullanınız.
 - Email doğrulama benzeri herhangi bir doğrulama eylemi yazmadım. Direkt bir hesap oluşturup  kullanmaya başlayabilirsiniz.
 - aktivitelerin listelendiği ekranda, herhangi bir aktiviteyi düzenlemek için üzerine uzun basın.  Bu sayede sizi düzenleme ekranına götürecek buton görünebilir hale gelecektir.
 - aktiviteyi silmek için aktivite düzenleme ekranında en üst sağ kısımdaki kırmızı butona basınız.
