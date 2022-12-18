@@ -1,0 +1,56 @@
+{
+  "name": "muhammet",
+  "okey": "tamam",
+  "serverError": "Sunucuda kaynaklı bir sorun oluştu.",
+  "notConnectionError": "Lütfen internet bağlantınızı kontrol ediniz.",
+  "signup": {
+    "createAccount": "Hesap oluştur",
+    "nameFieldHintText": "Ad Soyad",
+    "emailFieldHintText": "E-posta",
+    "passwordFieldHintText": "Şifre",
+    "nameSurnameFieldErrorText":  "Lütfen adınızı ve soyadınızı giriniz.",
+    "continue": "Devam et",
+    "invalidEmailFormat": "Lütfen geçerli bir e-posta adresi giriniz.",
+    "invalidPasswordFormat": "Lütfen geçerli bir şifre giriniz.",
+    "hasAccount": "Zaten bir hesabın var mı? ",
+    "goToLogin": "Giriş yap",
+    "userFoundErrorMessage": "Bu mail adresi başka bir hesap tarafından kullanılıyor",
+    "invalidInputs": "Girdiğiniz bilgiler hatalı"
+  },
+  "login": {
+    "bigTitle": "WeatherApp'e Hoşgeldiniz!",
+    "pageSubtitle": "E-posta adresiniz ve şifreniz ile oturum açarak devam edebilirsiniz.",
+    "emailFieldHintText": "E-posta",
+    "passwordFieldHintText": "Şifre",
+    "continue": "Devam et",
+    "invalidEmailFormat": "Lütfen geçerli bir e-posta adresi giriniz.",
+    "invalidPasswordFormat": "Şifreniz en az 8 haneli olmalıdır.",
+    "wrongPassword": "Parola yanlış",
+    "notFoundAccount": "Kullanıcı mevcut değil",
+    "invalidInfos": "Girdiğiniz bilgiler hatalı",
+    "hasntAccount": "Hesabın yok mu? ",
+    "createAccount": "Hesap oluştur"
+  },
+  "home": {
+    "appbarTitle": "Aktiviteler",
+    "addActivityTooltip": "Aktivite oluştur",
+    "editActivity": "Aktiviteyi Düzenle"
+  },
+  "createActivity": {
+    "defaultAppbarTitle": "Aktivite Oluştur",
+    "deleteActivityTooltip": "Aktiviteyi sil",
+    "areYouSureForDeleteActivity": "Aktiviteyi silmek istediğinizden emin misiniz?",
+    "cancel": "Vazgeç",
+    "yes":"Evet",
+    "selectDate": "Tarih seç",
+    "selectCity": "Şehir seçiniz",
+    "title": "Başlık",
+    "description": "Açıklama",
+    "category": "Kategori",
+    "venue": "Yer",
+    "save": "Kaydet"
+  },
+  "weatherOfWeek": {
+    "appbarTitle": "Hava Durumu"
+  }
+}

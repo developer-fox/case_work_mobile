@@ -1,0 +1,12 @@
+### Features
+- uygulamayı ilk yüklediğinizde sizi bir login ekranı karşılar. Uygulamanın genişleyebilir olması açısından bu şekilde bir hesaplandırma yoluna gittim.
+- uygulamayı yazarken environment değişkenleri kullandım. Bu sebeple eğer derlemeye kalkarsanız hata verecektir. Uygulamayı test etmek için lib/outputs içerisindeki apk dosyasını kullanınız.
+- Email doğrulama benzeri herhangi bir doğrulama eylemi yazmadım. Direkt bir hesap oluşturup  kullanmaya başlayabilirsiniz.
+- aktivitelerin listelendiği ekranda, herhangi bir aktiviteyi düzenlemek için üzerine uzun basın.  Bu sayede sizi düzenleme ekranına götürecek buton görünebilir hale gelecektir.
+- aktiviteyi silmek için aktivite düzenleme ekranında en üst sağ kısımdaki kırmızı butona basınız.
+- internet bağlantısı kesildiği zaman ekran değişir, ilgili uyarı sayfası gösterilmeye başlanır.
+- hava durumu sayfasında arkaplan resimleri ilgili şehire göre değişmektedir. Bu resimleri bir internet sitesinden python ile web scraping yaparak aldım. Dilerseniz bu python koduna backend reposundan erişebilirsiniz.
+- hava durumu sayfasında, altta listelenen günlerin hava durumu detaylarına ulaşmak için üzerine tıklayın. Gerekli panel açılacaktır.
+- lib/core içerisinde uygulamanın çekirdek kısmı bulunur. Bu kısımı yorum satırları ile olabildiğince açıklamaya çalıştım.
+- lib/components içerisinde uygulamada kullanılan, özel olarak yazılmış widgetlar yer alır.
+- lib/view içerisinde ekranlara göre arayüz dosyaları, network (request, response) dosyaları, viewmodel dosyaları bulunur.
