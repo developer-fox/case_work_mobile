@@ -6,8 +6,9 @@
 - aktivitelerin listelendiği ekranda, herhangi bir aktiviteyi düzenlemek için üzerine uzun basın.  Bu sayede sizi düzenleme ekranına götürecek buton görünebilir hale gelecektir.
 - aktiviteyi silmek için aktivite düzenleme ekranında en üst sağ kısımdaki kırmızı butona basınız.
 - internet bağlantısı kesildiği zaman ekran değişir, ilgili uyarı sayfası gösterilmeye başlanır.
-- hava durumu sayfasında arkaplan resimleri ilgili şehire göre değişmektedir. Bu resimleri bir internet sitesinden python ile web scraping yaparak aldım. Dilerseniz bu python koduna backend reposundan erişebilirsiniz.4
+- hava durumu sayfasında arkaplan resimleri ilgili şehire göre değişmektedir. Bu resimleri bir internet sitesinden python ile web scraping yaparak aldım. Dilerseniz bu python koduna backend reposundan erişebilirsiniz.
 - backend tarafında dosyaları (şehir fotoğraflarını) aws S3 servisinde tutuyorum.
+- backend servisini kendi DigitalOcean hesabımda deploy ettim. Uygulamayı test etmek için herhangi bir servis çalıştırmaya ihtiyacınız yok. Aynı zamanda backend tarafında da environment değişkenleri kullandığım için kodu deploy etmeye çalışırsanız hata alabilirsiniz.
 - hava durumu sayfasında, altta listelenen günlerin hava durumu detaylarına ulaşmak için üzerine tıklayın. Gerekli panel açılacaktır.
 - lib/core içerisinde uygulamanın çekirdek kısmı bulunur. Bu kısımı yorum satırları ile olabildiğince açıklamaya çalıştım.
 - lib/components içerisinde uygulamada kullanılan, özel olarak yazılmış widgetlar yer alır.
